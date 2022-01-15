@@ -1,0 +1,69 @@
+@media only screen and (max-width:688px) {
+    body{
+        text-align: center;
+    }
+    nav h3{
+        text-align: center;
+    }
+
+    .display{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    header{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .all-collection{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);    
+    }
+    .showroom-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr );
+        margin-bottom: 91px;
+        margin-left: 0;
+    }
+
+
+    .header-h1{
+        width: 100%;
+        margin-left: 51px;
+    }
+    .head-p{
+        margin-left: 50px;
+        width: 100%;
+    }
+    .ancohor-button{
+        margin-left: 109px;
+        width: 138px;
+        }
+
+    .collection-h2{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .all-collection{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .showroom-section{
+        width: 100%;
+    }
+    .showroom-img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .showroom-p{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .last-button{
+        margin-left: 111px;
+        width: 108px;
+    }
+    
+    .footer-text{
+        margin-left: 0px;
+    }
+}
