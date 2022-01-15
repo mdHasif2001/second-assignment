@@ -59,11 +59,26 @@ a{
    Popular Collection section
    ---------------------------*/
 
+.section-collection{
+    margin: 117px;
+}
+
 .all-collection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+
 }
 .collection{
-    background-color: grey;
-    width: 50%;
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 6px rgb(209, 208, 208);
+}
+.collection-img{
+    width: 100%;
+}
+.fas{
+    color: gold;
 }
