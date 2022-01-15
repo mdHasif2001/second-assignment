@@ -1,0 +1,52 @@
+body{
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+/* nav */
+
+nav h3{
+    font-weight: 700;
+    margin-bottom: 117px;
+}
+
+/*----------
+    header
+  ---------- */
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.header-text{
+    width: 70%;
+    
+}
+.main-cemera{
+    width: 59%;
+}
+.main-cemera:hover{
+    transform: scale(1.25);
+    transition: transform 1.2s;
+
+}
+.header-h1{
+    font-size: 46px;
+}
+.ancohor-button{
+    color: white;
+    background-image: linear-gradient(#DB0B5F ,#6F00ED);
+    width: 27%;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+}
+.ancohor-button:hover{
+    transform: scale(1.15);
+}
+.button-text{
+    color: white;
+}
+.fa-arrow-right{
+    margin-left: 2px;
+}
