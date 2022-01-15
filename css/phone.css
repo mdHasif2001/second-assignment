@@ -35,8 +35,9 @@
         width: 100%;
     }
     .ancohor-button{
-        margin-left: 109px;
+        margin-left: 100px;
         width: 138px;
+        padding: 11px;
         }
 
     .collection-h2{
@@ -47,6 +48,7 @@
         width: 100%;
         margin-left: 50px;
     }
+    
     .showroom-section{
         width: 100%;
     }
@@ -61,6 +63,8 @@
     .last-button{
         margin-left: 111px;
         width: 108px;
+        padding: 11px;
+
     }
     
     .footer-text{

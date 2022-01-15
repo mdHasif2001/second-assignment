@@ -1,0 +1,41 @@
+@media only screen and (min-width: 688px) and (max-width:992px){
+
+    header{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .all-collection{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);    
+    }
+    .showroom-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr );
+        margin-bottom: 91px;
+        margin-left: 0;
+    }
+    .main-cemera{
+        width: 403px;
+    }
+    .ancohor-button{
+        width: 138px;
+        padding: 11px;
+    }
+    .showroom-img{
+        margin-left: 135px;
+    }
+    .showroom-h1{
+        margin-left: 187px;
+        width: 100%;
+    }
+    .showroom-p{
+        width: 100%;
+        margin-left: 144px;
+    }
+    .last-button{
+        margin-left: 304px; 
+        width: 95px;
+        padding: 11px;
+    }
+
+}
