@@ -1,6 +1,7 @@
 body{
     margin-top: 120px;
     margin-left: 100px;
+    /* background-color: gray; */
 }
 
 /* nav */
@@ -37,9 +38,12 @@ header{
     color: white;
     background-image: linear-gradient(#DB0B5F ,#6F00ED);
     width: 27%;
-    border-radius: 5px;
+    border-radius: 11px;
     padding: 7px;
     cursor: pointer;
+}
+a{
+    text-decoration: none;
 }
 .ancohor-button:hover{
     transform: scale(1.15);
@@ -49,4 +53,17 @@ header{
 }
 .fa-arrow-right{
     margin-left: 2px;
+}
+
+/*--------------------------
+   Popular Collection section
+   ---------------------------*/
+
+.all-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.collection{
+    background-color: grey;
+    width: 50%;
 }
